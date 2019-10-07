@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Test Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      input:invalid {
+        border: 2px dashed red;
+      }
+
+      input:valid {
+        border: 2px dashed red;
+      }
+    </style>
+
+  </head>
+    <h1 align = "center" >Online Market</h1>
+
+    <a href="#">Home</a>
+    <a href="contact.html">Contact</a>
+
+  <body>
+      <header>
+        <h2>New Product Details</h2>
+      </header>
+
+<th>
+    <table border="3" width="500">
+        <tr>
+          <td rowspan ="4">Product</td>
+        </tr>
+
+        <tr>
+          <td>Name</td>
+            <td>x1</td>
+              <td>x2</td>
+                <td>x3</td>
+                <td>x4</td>
+
+        </tr> <td>Price</td>
+            <td>3.00</td>
+              <td>5.00</td>
+                <td>7.00</td>
+                  <td>9.00</td>
+
+        <tr> <td>Quantity</td>
+            <td>5</td>
+              <td>6</td>
+                <td>12</td>
+                  <td>16</td>
+        </tr>
+      </table>
+
+      <p>To order product online, please submit form below.</p>
+
+      <fieldset>
+        <form action="index.html" method="post">
+          <label for="date">Choose a date</label>
+          <input type="date" name="date" value="" required>
+
+      <br> <br>
+        <label for="number">Choose a number between 1 to 50:</label>
+        <input type="number" name="yournumber" value="" min=1 max=50 required>
+        <br><br><br>
+
+      <fieldset>
+        <legend>What is your favorite subject?</legend>
+          <input type="radio" checked name="button" value="Maths">Maths
+          <input type="radio" name="button" value="Science">Science
+          <input type="radio" name="button" value="Biology">Biology
+          <br><br>
+      </fieldset>
+    <br><br>
+      <select name="Study level">Study level
+        <option selected>Study Level</option>
+        <option value="level 1">level 1</option>
+        <option value="level 2">level 2</option>
+        <option value="level 3">level 3</option>
+        <option value="level 4">level 4</option>
+      </select><br><br><br><br>
+
+      <button type="button" name="button">Submit</button>
+      <button type="button" name="button">Reset</button>
+
+      </fieldset> </form>
+
+
+          </form>
+        </fieldset>
+      </form>
+  </body>
+</html>

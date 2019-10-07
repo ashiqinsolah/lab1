@@ -1,0 +1,33 @@
+* {
+  font-family:Arial;
+  background-color: white;
+}
+
+body {
+  color:black;
+  background-color: #E6E6FA
+  border:1px solid black;
+}
+h1 {
+  color: #E6E6FA
+  font-family: Times New Roman;
+  border: 3px dashed blue;
+  background-color: blue;
+}
+h2{
+  border: 3px dashed blue;
+}
+p {
+  color: red;
+}
+.classforContact{
+  color: #291970;
+}
+table{
+text-align: center;
+border: 2px solid  white;
+color: black;
+}
+tr:nth-child(even) td {
+  background-color: #a0cbf9;
+}
